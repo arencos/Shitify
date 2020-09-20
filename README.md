@@ -7,7 +7,7 @@ For now you can just run it through the terminal or Visual Studio Code.
 <h1> Running the app </h1>
 <p> First open the directory in Visual Studio Code, or just use "cd [directory]" </p>
 <h3> Visual Studio Code </h3>
-<p> Create new terminal and then type "npm start" </p>
+<p> Download the project then create new terminal and then type "npm start" </p>
 <h3> Terminal </h3>
 <p> Use the "cd" command to cd to the directory. </p>
 <p> Then just type "npm start" </p>
