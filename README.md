@@ -1,5 +1,5 @@
 # Shitify
-Shitify is a tool to make your code / text file look awful! (And possibly break it)
+<center><br>Shitify is a tool to make your code / text file look awful! (And possibly break it)<br></center>
 This tool is shitty so it will delete the spaces on strings as well. I could not finda fix for this. If you know how to fix it, you can send a pull request.
 I will create an installer for this later today (20.09.2020) most probably.
 For now you can just run it through the terminal or Visual Studio Code.
