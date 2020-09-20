@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>S h i t i f y</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <center>
+    <h1>S h i t i f y</h1>
+    <p>Shitify is a tool to make your code / text file look awful! (And possibly break it)</p>
+    <p>https://github.com/arencos if you want to improve / take a look at the horrible code.</p>
+    <p>This tool is shitty so it will delete the spaces on strings as well. I could not find
+      a fix for this. If you know how to fix it, you can send a pull request.</p>
+    <p>Select file: </p>
+    <input type="file" id="fileinput" />
+  </center>
+  <script>
+    var content;
+    var input = document.getElementById('fileinput');
+
+    input.onchange = e => {
+      var file = e.target.files[0];
+
+      var reader = new FileReader();
+      reader.readAsText(file, 'UTF-8');
+
+      reader.onload = readerEvent => {
+        var content = readerEvent.target.result;
+        console.log(content);
+        content.trim();
+        alert("⚠⚠⚠ The file has quotes in the beginning and end. Remove those for the file to work (or break)");
+        content = content.replace(/\s+/g, '');
+        const data = content;
+        const a = document.createElement('a');
+        const blob = new Blob([JSON.stringify(data)]);
+        a.href = URL.createObjectURL(blob);
+        a.download = file.name;
+        a.click();
+      }
+    }
+  </script>
+</body>
+
+</html>
