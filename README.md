@@ -4,7 +4,9 @@ This tool is shitty so it will delete the spaces on strings as well. I could not
 I will create an installer for this later today (20.09.2020) most probably.
 For now you can just run it through the terminal or Visual Studio Code.
 
-<h1> Running the app </h1>
+<h1> Running the app (With installer) </h1>
+<p> Just download the installer and then wait. It should launch automatically </p>
+<h1> Running the app (Without installer) </h1>
 <p> First open the directory in Visual Studio Code, or just use "cd [directory]" </p>
 <h3> Visual Studio Code </h3>
 <p> Download the project then create new terminal and then type "npm start" </p>
