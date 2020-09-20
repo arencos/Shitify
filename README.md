@@ -21,5 +21,5 @@ For now you can just run it through the terminal or Visual Studio Code.
 <h1> Bugs that I could not fix </h1>
 <ul>
   <li> Spaces in strings get deleted. </li>
-  <li> Because the content is saved as a string, the file automatically has quotes in the beginninng and end. </li>
+  <li> Because the content is saved as a string, the file automatically has quotes in the beginning and end. </li>
 </ul>
